@@ -1,0 +1,15 @@
+{
+	"name": "adfdevmumbaiproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "eeba85d9-63a9-47f5-a8f3-ed4e29634992",
+		"tenantId": "ca97d0c9-28fc-41e0-b5eb-5f371e4b5b75"
+	}
+}

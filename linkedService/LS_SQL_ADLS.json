@@ -1,0 +1,13 @@
+{
+	"name": "LS_SQL_ADLS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "azure to database",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adlsdevmumbaiproject.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEY0NzYzQjQ4LUQ5QjEtNEU2OC05Q0VGLUIzMTgwMEJGRTg3MV8zYjFkMmM5Yi0xZTk2LTQ5MjAtOWZmZS1hNTIxZGUzOGQ0YmQiDQp9"
+		}
+	}
+}

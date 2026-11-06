@@ -1,0 +1,7 @@
+{
+	"name": "integrationRuntimes",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "SQL to cloude "
+	}
+}

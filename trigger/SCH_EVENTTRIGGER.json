@@ -1,0 +1,24 @@
+{
+	"name": "SCH_EVENTTRIGGER",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_EVENTTR",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/eventinputtrigger/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/5a63c3ad-6e91-47cc-ba13-2d2a875e7f0e/resourceGroups/rgdevmumbaiproject/providers/Microsoft.Storage/storageAccounts/adlsdevcsvtrigger1",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
