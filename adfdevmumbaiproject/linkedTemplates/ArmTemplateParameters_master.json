@@ -1,0 +1,150 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevmumbaiproject"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"DS_SQLSERVR_password": {
+			"value": ""
+		},
+		"LS_ADLS_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_BULK_PARQEST_accountKey": {
+			"value": ""
+		},
+		"LS_CSVBULKDATA_accountKey": {
+			"value": ""
+		},
+		"LS_CSVTOPARQESTOUTPUT_accountKey": {
+			"value": ""
+		},
+		"LS_CSVTRIGGER_accountKey": {
+			"value": ""
+		},
+		"LS_CSVTRIGGEROUT_accountKey": {
+			"value": ""
+		},
+		"LS_Delete_accountKey": {
+			"value": ""
+		},
+		"LS_EVENTTR_accountKey": {
+			"value": ""
+		},
+		"LS_EVENTTRIGGER_accountKey": {
+			"value": ""
+		},
+		"LS_LookupCSV_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_accountKey": {
+			"value": ""
+		},
+		"LS_SQLDATA_password": {
+			"value": ""
+		},
+		"LS_SQLSERVER_password": {
+			"value": ""
+		},
+		"LS_SQLSERVER_DB_password": {
+			"value": ""
+		},
+		"LS_SQLSERVER_DBase_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_ADLS_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsdevmumbaiproject.dfs.core.windows.net/"
+		},
+		"DS_SQLSERVR_properties_typeProperties_server": {
+			"value": "DESKTOP-MVKEP7Q\\SQLEXPRESS"
+		},
+		"DS_SQLSERVR_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"DS_SQLSERVR_properties_typeProperties_userName": {
+			"value": "Admin"
+		},
+		"LS_ADLS_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevmumbaiproject.dfs.core.windows.net/"
+		},
+		"LS_BULK_PARQEST_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvoutputtrigger1.dfs.core.windows.net/"
+		},
+		"LS_CSVBULKDATA_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvtrigger1.dfs.core.windows.net/"
+		},
+		"LS_CSVTOPARQESTOUTPUT_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvoutputtrigger1.dfs.core.windows.net/"
+		},
+		"LS_CSVTRIGGER_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvtrigger1.dfs.core.windows.net/"
+		},
+		"LS_CSVTRIGGEROUT_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvoutputtrigger1.dfs.core.windows.net/"
+		},
+		"LS_Delete_properties_typeProperties_url": {
+			"value": "https://adlsdevmumbaiproject.dfs.core.windows.net/"
+		},
+		"LS_EVENTTR_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvoutputtrigger1.dfs.core.windows.net/"
+		},
+		"LS_EVENTTRIGGER_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvtrigger1.dfs.core.windows.net/"
+		},
+		"LS_LookupCSV_properties_typeProperties_url": {
+			"value": "https://adlsdevmumbaiproject.dfs.core.windows.net/"
+		},
+		"LS_SQL_properties_typeProperties_url": {
+			"value": "https://adlsdevmumbaiproject.dfs.core.windows.net/"
+		},
+		"LS_SQLDATA_properties_typeProperties_server": {
+			"value": "DESKTOP-MVKEP7Q\\SQLEXPRESS"
+		},
+		"LS_SQLDATA_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"LS_SQLDATA_properties_typeProperties_userName": {
+			"value": "Admin"
+		},
+		"LS_SQLSERVER_properties_typeProperties_server": {
+			"value": "DESKTOP-MVKEP7Q\\SQLEXPRESS"
+		},
+		"LS_SQLSERVER_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"LS_SQLSERVER_properties_typeProperties_userName": {
+			"value": "Admin"
+		},
+		"LS_SQLSERVER_DB_properties_typeProperties_server": {
+			"value": "DESKTOP-MVKEP7Q\\SQLEXPRESS"
+		},
+		"LS_SQLSERVER_DB_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"LS_SQLSERVER_DB_properties_typeProperties_userName": {
+			"value": ".\\Admin"
+		},
+		"LS_SQLSERVER_DBase_properties_typeProperties_url": {
+			"value": "https://adlsdevmumbaiproject.dfs.core.windows.net/"
+		},
+		"LS_SQL_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevmumbaiproject.dfs.core.windows.net/"
+		},
+		"SCH_EVENTTRIGGER_properties_typeProperties_scope": {
+			"value": "/subscriptions/5a63c3ad-6e91-47cc-ba13-2d2a875e7f0e/resourceGroups/rgdevmumbaiproject/providers/Microsoft.Storage/storageAccounts/adlsdevcsvtrigger1"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
